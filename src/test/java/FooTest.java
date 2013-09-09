@@ -10,13 +10,6 @@ import java.util.Properties;
 import static org.hamcrest.Matchers.containsString;
 import static org.junit.Assert.assertThat;
 
-/**
- * Created with IntelliJ IDEA.
- * User: milus
- * Date: 9/5/13
- * Time: 9:48 PM
- * To change this template use File | Settings | File Templates.
- */
 public class FooTest {
     private static FirefoxDriver firefoxDriver;
 
