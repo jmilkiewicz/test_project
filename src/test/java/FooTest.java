@@ -49,7 +49,6 @@ public class FooTest {
         }
     }
 
-
     @Test
     public void testFF(){
         firefoxDriver.get("http://www.amazon.com");
