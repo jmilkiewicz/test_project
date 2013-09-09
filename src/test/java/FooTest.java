@@ -23,6 +23,7 @@ public class FooTest {
     @BeforeClass
     public static void beforeClass(){
         firefoxDriver = new FirefoxDriver();
+
     }
 
     @AfterClass
