@@ -39,7 +39,7 @@ public class FooTest {
     }
 
     @Test
-    public void testFF(){
+    public void testFirefox(){
         firefoxDriver.get("http://www.amazon.com");
         String title = firefoxDriver.getTitle();
 
