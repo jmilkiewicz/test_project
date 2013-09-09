@@ -28,7 +28,6 @@ public class FooTest {
     @AfterClass
     public static void afterClass(){
         firefoxDriver.quit();
-
     }
 
     @Test
