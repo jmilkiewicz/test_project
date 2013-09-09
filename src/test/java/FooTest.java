@@ -40,7 +40,12 @@ public class FooTest {
             System.out.println(objectObjectEntry.getKey() + "=" + objectObjectEntry.getValue());
         }
 
+
+
+
         System.out.println("++++ ENV Variables ++++++");
+
+
 
         Map<String, String> getenv = System.getenv();
         for (Map.Entry<String, String> stringStringEntry : getenv.entrySet()) {
