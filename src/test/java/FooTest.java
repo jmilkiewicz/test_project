@@ -23,8 +23,6 @@ public class FooTest {
     @BeforeClass
     public static void beforeClass(){
         firefoxDriver = new FirefoxDriver();
-
-
     }
 
     @AfterClass
@@ -39,9 +37,7 @@ public class FooTest {
         for (Map.Entry<Object, Object> objectObjectEntry : properties.entrySet()) {
             System.out.println(objectObjectEntry.getKey() + "=" + objectObjectEntry.getValue());
         }
-
         System.out.println("++++ ENV Variables ++++++");
-
         Map<String, String> getenv = System.getenv();
         for (Map.Entry<String, String> stringStringEntry : getenv.entrySet()) {
             System.out.println(stringStringEntry.getKey() + "=" + stringStringEntry.getValue());
