@@ -8,7 +8,7 @@
     <artifactId>paramTests</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
-        <rootProperty>dasdasda</rootProperty>
+        <rootProperty>rootPropValue</rootProperty>
     </properties>
     <build>
         <plugins>
