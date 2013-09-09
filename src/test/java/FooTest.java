@@ -24,21 +24,6 @@ public class FooTest {
     }
 
     @Test
-    public void foo(){
-        Properties properties = System.getProperties();
-        System.out.println("++++ SYSTEM PROPERTIES ++++++");
-        for (Map.Entry<Object, Object> objectObjectEntry : properties.entrySet()) {
-            System.out.println(objectObjectEntry.getKey() + "=" + objectObjectEntry.getValue());
-        }
-
-        System.out.println("++++ ENV Variables ++++++");
-        Map<String, String> getenv = System.getenv();
-        for (Map.Entry<String, String> stringStringEntry : getenv.entrySet()) {
-            System.out.println(stringStringEntry.getKey() + "=" + stringStringEntry.getValue());
-        }
-    }
-
-    @Test
     public void testFirefox(){
         firefoxDriver.get("http://www.amazon.com");
         String title = firefoxDriver.getTitle();
