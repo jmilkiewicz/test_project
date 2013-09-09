@@ -37,6 +37,7 @@ public class FooTest {
         Properties properties = System.getProperties();
 
         System.out.println("++++ SYSTEM PROPERTIES ++++++");
+
         for (Map.Entry<Object, Object> objectObjectEntry : properties.entrySet()) {
             System.out.println(objectObjectEntry.getKey() + "=" + objectObjectEntry.getValue());
         }
