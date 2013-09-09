@@ -23,11 +23,15 @@ public class FooTest {
     @BeforeClass
     public static void beforeClass(){
         firefoxDriver = new FirefoxDriver();
+
+
     }
 
     @AfterClass
     public static void afterClass(){
         firefoxDriver.quit();
+
+
     }
 
     @Test
@@ -45,20 +49,15 @@ public class FooTest {
         for (Map.Entry<String, String> stringStringEntry : getenv.entrySet()) {
             System.out.println(stringStringEntry.getKey() + "=" + stringStringEntry.getValue());
         }
-        Assert.assertTrue(true);
-
     }
 
 
 
     @Test
     public void testFF(){
-
         firefoxDriver.get("http://www.amazon.com");
         String title = firefoxDriver.getTitle();
 
         assertThat(title, containsString("Online Shopping"));
-
-
     }
 }
