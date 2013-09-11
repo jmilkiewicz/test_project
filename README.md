@@ -1,4 +1,4 @@
 test_project
 ============
 
-to test jenkins GitHub Plugin and promoting
+to test jenkins GitHub Plugin and promoting.
