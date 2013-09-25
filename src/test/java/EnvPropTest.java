@@ -27,7 +27,7 @@ public class EnvPropTest {
 
         FileWriter fileOutputStream = new FileWriter("aaa.txt");
         fileOutputStream.write("from env " + System.getenv("KUBA") + "\n");
-        fileOutputStream.write("from system " + System.getProperty("KUBA") + "\n");
+        fileOutputStream.write("from system " + System.getProperty("KUBASYS") + "\n");
         fileOutputStream.flush();
         fileOutputStream.close();
     }
