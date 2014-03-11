@@ -9,6 +9,7 @@ public class MyBean {
     private String home8;
     private String home9;
     private String home10;
+    private String home11;
     public String getHome() {
         return home;
     }
