@@ -23,6 +23,7 @@ public class MyBean {
     private String home22;
     private String home23;
     private String home24;
+    private String home25;
     public String getHome() {
         return home;
     }
