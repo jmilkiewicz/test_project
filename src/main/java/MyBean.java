@@ -4,8 +4,7 @@ public class MyBean {
     private String home5;
     private String home6;
     private String home7;
-    private String home8;
-    private String home9;
+    private String home48;
     public String getHome() {
         return home;
     }
