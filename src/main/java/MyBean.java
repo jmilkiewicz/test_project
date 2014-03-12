@@ -26,6 +26,7 @@ public class MyBean {
     private String home25;
     private String home26;
     private String home27;
+    private String home87;
     public String getHome() {
         return home;
     }
