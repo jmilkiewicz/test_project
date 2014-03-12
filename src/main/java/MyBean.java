@@ -2,7 +2,6 @@
 public class MyBean {
     private String home;
     private String home26;
-    private String home87;
     public String getHome() {
         return home;
     }
